@@ -1,0 +1,28 @@
+{
+  "ABOUT": "About Me",
+  "SKILLSET": "Skillset",
+  "PROJECTS": "Projects",
+  "CONTACT": "Contact",
+  "WELCOME_MSG": "Hi, I am Kevin Wyatt",
+  "ABOUT_ME": "I am a motivated and versatile individual who is always ready to take on new challenges. With a passion for learning, I am committed to delivering quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+  "Join - Kanbanboard": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+  "travSIM": "I had the pleasure of working on a project for travSIM where an additional functionality was implemented on their existing Shopware website. The main goal was to give customers the ability to activate their SIM cards directly on the website. For this task, I added a new page to the existing Shopware platform. A lot of attention was paid to seamless integration with the existing user experience to ensure that SIM card activation was intuitive and user-friendly. The implementation was carried out using the following technologies and frameworks: \n JavaScript: \nTo implement dynamic and interactive elements on the activation page. This included the validation of user input, asynchronous requests to the API and the dynamic updating of the user interface. \nBootstrap:\n The Bootstrap framework was used to realise an appealing and responsive design for the activation page. This enabled a uniform display on different devices and screen sizes. \nShopware customisations:\n Integration into the existing Shopware platform ensured that the new site fitted harmoniously into the existing Shopware ecosystem. Existing elements and features were utilised to ensure a consistent user experience. \nAPI connection:\n To enable the actual SIM card activation, a seamless connection to the corresponding API was implemented. This enabled secure and efficient communication with the mobile operator or the backend system for SIM card management. \nThe result is a user-friendly activation page that offers travSIM customers a simple and effective way to activate their SIM cards directly via the Shopware platform.",
+  "bediKids": "As a freelancer in my field, I focus on the management and maintenance of the company website and network. My responsibilities include regularly updating the website to ensure that it is technically sound and functional. This includes fixing technical issues and implementing new features as required. At the same time, as network administrator, I am responsible for planning, implementing and monitoring the company's entire network infrastructure. The focus here is on managing servers, ensuring network security and configuring hardware and software. As a freelancer, I help to ensure that the technological aspects of the company run smoothly. Whilst I am not directly responsible for the content of the website, I help to ensure that the technical side of the online presence is optimally maintained and supported.",
+  "Alien Zapper": "The objective of the game is to shoot down as many aliens as possible. Control your character and use your weapon to fight against approaching aliens and collect points. Be careful not to get hit by the aliens, as it will result in a loss of life. Try to achieve a high score before your health runs out.",
+  "Pokedex": "The Pokédex is an electronic device that provides information about various species of Pokémon and their characteristics.",
+  "I_AM": "I am a",
+  "FRONTEND": "Frontend Developer",
+  "CONTACT_SUBTITLE": "Need a Frontend developer? Contact me!",
+  "FORM_HEAD": "Send me an Email",
+  "EMAIL": "Your Email",
+  "EMAIL_REQUIRED": "Email is required",
+  "NAME": "Your Name",
+  "NAME_REQUIRED": "Name is required",
+  "MESSAGE": "Message",
+  "MESSAGE_REQUIRED": "Message is required",
+  "SEND_BTN_ONE": "Fill all Fields",
+  "SEND_BTN_TWO": "SEND",
+
+  "IMPRINT": "Imprint",
+    "DATA_PROTEC": "Data protection"
+}

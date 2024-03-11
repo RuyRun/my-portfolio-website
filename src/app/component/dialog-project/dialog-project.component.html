@@ -1,0 +1,29 @@
+<!-- <div class="p-5 container mat-typography">
+  <img src='../../../assets/images/{{data.img}}' alt="">
+<h2>{{data.img}}</h2>
+  <p>{{data.text}}</p>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button cdkFocusInitial>Ok</button>
+</mat-dialog-actions>
+</div> -->
+
+<!-- <h2 mat-dialog-title>Install Angular</h2> -->
+<mat-dialog-content class="mat-typography container">
+  <img src='../../../assets/images/{{data.img}}' alt="">
+  <h2 class="mt-2">{{data.name}}</h2>
+  <div class="used-tools mt-2 mb-2">
+    <span class="tool" *ngFor="let tool of data.tools">
+      {{tool}}
+    </span>
+  </div>
+    <p>{{ data.name| translate}}</p>
+    
+    
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <a class="btn btn-light me-3" *ngIf="data.site" href='{{data.site}}' target="_blank">Live test</a>
+  <a class="btn btn-dark me-3" *ngIf="data.github" href='{{data.github}}' target="_blank">GitHub</a>
+  <button class="btn btn-danger" [mat-dialog-close]="true" cdkFocusInitial>Close</button>
+</mat-dialog-actions>

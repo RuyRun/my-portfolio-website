@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        color: rgb(133, 76, 230);
+        font-size: 21px;
+    }
+    .footer-nav-links {
+        display: flex;
+        gap: 12px;
+        span {
+            cursor: pointer;
+            &:hover {
+                color: rgb(133, 76, 230);
+            }
+        }
+    }
+    .sozial-media {
+        display: flex;
+        gap: 12px;
+        a {
+            font-size: 24px;
+            cursor: pointer;
+            color: white;
+            &:hover {
+                color: rgb(133, 76, 230);
+            }
+        }
+    }
+}

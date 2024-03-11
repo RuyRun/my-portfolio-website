@@ -1,0 +1,19 @@
+<div class="content" >
+  <h2 class="m-5">{{ 'PROJECTS' | translate}}</h2>
+  <div class="project-container" >
+    <div class="test" *ngFor="let item of jsData; let  i = index" (click)="openModal(i)" data-aos="fade-down-right" data-aos-delay="300" data-aos-duration="1000">
+      <div class="image">
+        <img src='../../../assets/images/{{item.img}}' alt="">
+      </div>
+      <div class="used-tools">
+        <span class="tool" *ngFor="let tool of item.tools">
+          {{tool}}
+        </span>
+      </div>
+      <h3>{{item.name}}</h3>
+      <div class="text-box">
+        {{ item.name | translate}}
+      </div>
+    </div>
+  </div>
+</div>

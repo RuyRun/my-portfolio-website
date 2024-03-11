@@ -1,0 +1,35 @@
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 0px;
+}
+
+.container {
+    background-color: rgb(23, 23, 33);
+  color: rgb(242, 243, 244);
+}
+p {
+  white-space: pre-line;
+}
+.used-tools {
+  width: 100%;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+  .tool {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(133, 76, 230);
+    background-color: rgba(133, 76, 230, 0.082);
+    padding: 2px 8px;
+    border-radius: 10px;
+  }
+}
+
+.mat-mdc-dialog-actions {
+  background-color: rgb(23, 23, 33);
+}

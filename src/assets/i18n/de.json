@@ -1,0 +1,29 @@
+{
+    "ABOUT": "Über mich",
+    "SKILLSET": "Fähigkeiten",
+    "PROJECTS": "Projekte",
+    "CONTACT": "Kontakt",
+    "WELCOME_MSG": "Hallo, \nmein Name ist Kevin Wyatt",
+    "ABOUT_ME": "Ich bin eine motivierte und vielseitige Person, die immer bereit ist, neue Herausforderungen anzunehmen. Mit Leidenschaft fürs Lernen setze ich mich dafür ein, qualitativ hochwertige Ergebnisse zu liefern. Mit einer positiven Einstellung und einem Wachstumsdenken bin ich bereit, einen sinnvollen Beitrag zu leisten und Großartiges zu erreichen.",
+    "Join - Kanbanboard": "Aufgabenmanager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mithilfe von Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
+    "travSIM": "Ich hatte das Vergnügen, an einem Projekt für travSIM zu arbeiten, bei dem eine zusätzliche Funktion auf ihrer bestehenden Shopware-Website implementiert wurde. Das Hauptziel bestand darin, Kunden die Möglichkeit zu geben, ihre SIM-Karten direkt auf der Website zu aktivieren. Hierfür habe ich eine neue Seite zur bestehenden Shopware-Plattform hinzugefügt. Es wurde besonderes Augenmerk auf nahtlose Integration in das bestehende Benutzererlebnis gelegt, um sicherzustellen, dass die Aktivierung der SIM-Karte intuitiv und benutzerfreundlich ist. Die Implementierung erfolgte unter Verwendung der folgenden Technologien und Frameworks: \n JavaScript: \n Zur Implementierung von dynamischen und interaktiven Elementen auf der Aktivierungsseite. Dazu gehörten die Validierung der Benutzereingabe, asynchrone Anfragen an die API und die dynamische Aktualisierung der Benutzeroberfläche. \nBootstrap:\n Das Bootstrap-Framework wurde verwendet, um ein ansprechendes und responsives Design für die Aktivierungsseite zu realisieren. Dadurch wurde eine einheitliche Anzeige auf verschiedenen Geräten und Bildschirmgrößen ermöglicht. \nShopware-Anpassungen:\n Die Integration in die bestehende Shopware-Plattform gewährleistete, dass die neue Seite harmonisch in das bestehende Shopware-Ökosystem passte. Vorhandene Elemente und Funktionen wurden genutzt, um ein konsistentes Benutzererlebnis zu gewährleisten. \nAPI-Verbindung:\n Um die tatsächliche Aktivierung der SIM-Karte zu ermöglichen, wurde eine nahtlose Verbindung zur entsprechenden API implementiert. Dies ermöglichte eine sichere und effiziente Kommunikation mit dem Mobilfunkanbieter oder dem Backend-System für das SIM-Kartenmanagement. \nDas Ergebnis ist eine benutzerfreundliche Aktivierungsseite, die travSIM-Kunden eine einfache und effektive Möglichkeit bietet, ihre SIM-Karten direkt über die Shopware-Plattform zu aktivieren.",
+    "bediKids": "Als Freiberufler in meinem Bereich konzentriere ich mich auf die Verwaltung und Wartung der Unternehmenswebsite und des Netzwerks. Zu meinen Aufgaben gehört es, die Website regelmäßig zu aktualisieren, um sicherzustellen, dass sie technisch einwandfrei und funktionsfähig ist. Dies umfasst das Beheben technischer Probleme und die Implementierung neuer Funktionen bei Bedarf. Gleichzeitig bin ich als Netzwerkadministrator für die Planung, Implementierung und Überwachung der gesamten Netzwerkinfrastruktur des Unternehmens verantwortlich. Der Fokus liegt dabei auf der Verwaltung von Servern, der Sicherstellung der Netzwerksicherheit sowie der Konfiguration von Hardware und Software. Als Freiberufler trage ich dazu bei, sicherzustellen, dass die technologischen Aspekte des Unternehmens reibungslos funktionieren. Obwohl ich nicht direkt für den Inhalt der Website verantwortlich bin, helfe ich sicherzustellen, dass die technische Seite der Online-Präsenz optimal gewartet und unterstützt wird.",
+    "Alien Zapper": "Das Ziel des Spiels ist es, so viele Aliens wie möglich abzuschießen. Steuern Sie Ihren Charakter und verwenden Sie Ihre Waffe, um gegen herannahende Aliens zu kämpfen und Punkte zu sammeln. Achten Sie darauf, nicht von den Aliens getroffen zu werden, da dies zu einem Verlust von Leben führt. Versuchen Sie, einen hohen Punktestand zu erreichen, bevor Ihre Gesundheit erschöpft ist.",
+    "Pokedex": "Der Pokédex ist ein elektronisches Gerät, das Informationen über verschiedene Arten von Pokémon und ihre Eigenschaften bereitstellt.",
+    "I_AM": "Ich bin ein",
+    "FRONTEND": "Frontend Entwickler",
+    "CONTACT_SUBTITLE": "Brauchen Sie einen Frontend-Entwickler? Kontaktiere mich!",
+    "FORM_HEAD": "Schicken Sie mir eine E-Mail",
+    "EMAIL": "Ihre E-Mail",
+    "EMAIL_REQUIRED": "E-Mail ist erforderlich",
+    "NAME": "Ihr Name",
+    "NAME_REQUIRED": "Name ist erforderlich",
+    "MESSAGE": "Nachricht",
+    "MESSAGE_REQUIRED": "Nachricht ist erforderlich",
+    "SEND_BTN_ONE": "Füllen Sie alle Felder aus",
+    "SEND_BTN_TWO": "SENDEN",
+
+    "IMPRINT": "Impressum",
+    "DATA_PROTEC": "Datenschutz"
+  }
+  

@@ -1,0 +1,10 @@
+{
+    "projekts": [
+        {
+            "name": "Join",
+            "img": "alien-zapper.png",
+            "text": "The objective of the game is to shoot down as many aliens as possible. Control your character and use your weapon to fight against approaching aliens and collect points. Be careful not to get hit by the aliens, as it will result in a loss of life. Try to achieve a high score before your health runs out.",
+            "tools": ["JavaScript", "OOP"]
+        }
+    ]
+}

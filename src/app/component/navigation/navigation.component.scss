@@ -1,0 +1,33 @@
+@import '../../../assets/scss/base.scss';
+
+.navbar {
+    background-color: $bg-color;
+    .nav-link, .navbar-brand {
+        color: white;
+    }
+}
+
+.fixed-top {
+    z-index: 99 !important;
+}
+
+.active {
+    color: rgb(133, 76, 230) !important;
+}
+
+.lang {
+    img {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+}
+
+.navbar-brand {
+    padding: 0;
+    
+    img {
+        width: 80px;
+    }
+}
