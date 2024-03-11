@@ -1,0 +1,54 @@
+name: 🛠️ Build and Deploy Website
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: "🛠️ Build Angular App"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: npm ci and npm run build
+        run: |
+          npm ci
+          npm run build:production
+      - name: upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: angular-build
+          path: "./dist/"
+  deploy:
+    name: 🚀 Deploy via FTP
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: angular-build
+          path: "./dist/"
+      - name: ⬆️ Upload Files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          local-dir: "./dist/"
+          server-dir: "html/"
