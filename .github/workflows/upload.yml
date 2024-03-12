@@ -28,7 +28,7 @@ jobs:
       - name: npm ci and npm run build
         run: |
           npm ci
-          npm run build:production
+          npm run build
       - name: upload artifact
         uses: actions/upload-artifact@v3
         with:
@@ -43,7 +43,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: angular-build
-          path: "./dist/"
+          path: "./dist/my-portfolio-website/"
       - name: ⬆️ Upload Files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
