@@ -50,5 +50,5 @@ jobs:
           server: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          local-dir: "./dist/"
-          server-dir: "html/"
+          local-dir: "./dist/my-portfolio-website/"
+          server-dir: "/"
