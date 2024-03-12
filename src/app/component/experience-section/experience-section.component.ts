@@ -19,7 +19,7 @@ export class ExperienceSectionComponent implements OnInit {
       name: 'Join - Kanbanboard',
       img: 'join.png',
       text: 'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
-      tools: ['Angular', 'TypeScript', 'HTML', 'SCSS', 'Loopback'],
+      tools: ['Angular', 'TypeScript', 'HTML', 'SCSS', 'Django'],
     },
     {
       name: 'bediKids',
