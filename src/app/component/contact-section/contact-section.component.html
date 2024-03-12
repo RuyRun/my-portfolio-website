@@ -4,8 +4,13 @@
   <p>{{ 'CONTACT_SUBTITLE' | translate}}</p>
 
   <div class="form-container" data-aos="fade-up-right" data-aos-delay="300" data-aos-duration="1000">
-    
-    <form (ngSubmit)="onSubmit()" [formGroup]="emailForm">
+    <div class="form-content">
+      <h3>E-Mail:</h3>
+      <a href="mailto:mail@kevinwyatt.de" class="email">Mail@KevinWyatt.de</a>
+      <h3>{{ 'PHONE' | translate}}</h3>
+      <a href="tel:+4917676861479" class="phone">+49 176 76861479</a>
+    </div>
+    <!-- <form (ngSubmit)="onSubmit()" [formGroup]="emailForm">
       <h3>{{ 'FORM_HEAD' | translate}}</h3>
       <input type="email" placeholder="{{ 'EMAIL' | translate}}" formControlName="email" [class.is-valid]="
       emailForm.controls['email'].touched && emailForm.controls['email'].valid
@@ -32,6 +37,6 @@
         {{ 'MESSAGE_REQUIRED' | translate}}
       </div>
       <button class="form-btn"><span *ngIf="emailForm.valid">{{ 'SEND_BTN_TWO' | translate}}</span><span *ngIf="!emailForm.valid">{{ 'SEND_BTN_ONE' | translate}}</span></button>
-    </form>
+    </form> -->
   </div>
 </div>
