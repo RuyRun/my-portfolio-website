@@ -4,6 +4,9 @@
     background-color: $bg-color;
     .nav-link, .navbar-brand {
         color: white;
+        &:hover {
+            color: rgb(133, 76, 230);
+        }
     }
 }
 
@@ -21,6 +24,11 @@
         height: 24px;
         margin-right: 8px;
         cursor: pointer;
+        filter: brightness(0.8);
+        &:hover {
+            transform: translate(2px, -2px);
+            filter: brightness(1);
+        }
     }
 }
 
